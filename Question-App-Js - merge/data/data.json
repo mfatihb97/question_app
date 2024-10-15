@@ -1,0 +1,131 @@
+{
+    "test": [
+      {
+        "id": 1,
+        "question": "Aşağıdakilerden hangisi İslam'ın şartlarındandır?",
+        "A": "Abdest almak",
+        "B": "Oruç tutmak",
+        "C": "Salavat getirmek",
+        "D": "Allah'ın varlığını ve birliğini iman etmek",
+        "true_answer": ""
+      },
+      {
+        "id": 2,
+        "question": "Şeair; alametler, işaretler demektir. Dinimizin de Şeairleri vardır. Aşağıdakilerden hangisi şeair-i İslamiyeden değildir.",
+        "A": "Oruç tutmak",
+        "B": "Camiler ve minareler",
+        "C": "Namaz kılmak",
+        "D": "Yemekte dua etmek",
+        "true_answer": ""
+      },
+      {
+        "id": 3,
+        "question": "Aşağıdakilerden hangisi ramazan ayında tutulan oruç'un hikmetlerinden değildir?",
+        "A": "Cenab-ı Hakkın rububiyetine bakar.",
+        "B": "Insanın hayat-ı içtimaiyesine bakar.",
+        "C": "Insanlardaki nefsin azgınlaşmasına bakar.",
+        "D": "Niam-ı İlâhiyenin şükrüne bakar.",
+        "true_answer": ""
+      },
+      {
+        "id": 4,
+        "question": "Cenab-ı Hak zemin yüzünü bir sofra-i nimet suretinde halk ettiğini ve yarattığı bütün varlıklara ummadıkları bir şekilde rızıklandırdığını, şu ayetle ifade eder; 'Allah onu ummadığı bir şekilde rızıklandırır. (Talak Suresi 3. ayet)' bu durumda Cenabı hak hangi isim ve sıfatlarını bizlere göstermek istemez?",
+        "A": "Kemål-i Rububiyetini",
+        "B": "Mağfiretini",
+        "C": "Rahmaniyetini",
+        "D": "Rahimiyetini",
+        "true_answer": ""
+      },
+      {
+        "id": 5,
+        "question": "Cenab-ı Hak, hadsiz enva-i nimetini nev-i beşere zemin yüzünde neşretmiş. Ona mukabil, o nimetlerin fiyatı olarak, şükür istiyor. Aşağıdakilerden hangisi Cenab-ı Hakka manevi olarak teşekkür ettiğimiz anlamına gelmez?",
+        "A": "O nimetlerin fiyatını nakit olarak satıcıya ödemek.",
+        "B": "O nimetleri doğrudan doğruya Cenab-ı Haktan bilmek.",
+        "C": "O nimetlerin kıymetini takdir etmek.",
+        "D": "O nimetleri kendi ihtiyacını hissetmekle.",
+        "true_answer": ""
+      },
+      {
+        "id": 6,
+        "question": "Kuru bir parça ekmek, tok olan adamlara, hususan zengin olsa, ondaki derece-i nimet anlaşılmıyor. Halbuki, iftar vaktinde, o kuru ekmek bir mü'minin nazarında çok kıymettar bir nimet-i İlahiye olduğuna Kuvue-i...... Zaka şahadet eder. Aşağıdakilerden hangisi boşluğa gelmelidir.",
+        "A": "Kuvve-i zahiresi",
+        "B": "Kuvve-i şeheviyesi",
+        "C": "Kuvve-i zaikası",
+        "D": "Kuvve-i nazarı",
+        "true_answer": ""
+      },
+      {
+        "id": 7,
+        "question": "Ey insan! Hiç mümkün müdür ki, sana bu simayı veren ve o simada böyle bir sikke-i rahmeti ve bir hatem-i ehadiyeti vazeden Zât, seni başı boş bıraksın; sana ehemmiyet vermesin, senin harekatını dikkat etmesin, sana müteveccih olan bütün kâinatı abes yapsın. Hem hiçbir cihetle şüphe kabul etmeyen ve hiçbir vecihle noksaniyeti olmayan güneş gibi zahir olan rahmetini ve ziya gibi görünen hikmetini inkar ettirsin? Ey insan Bil ki, o Rahmetin arşına yetişmek için bir miraç var. Burada bahsedilen miraç nedir?",
+        "A": "Namaz",
+        "B": "Bismillahirrahmanirrahim",
+        "C": "Dua",
+        "D": "Oruç",
+        "true_answer": ""
+      },
+      {
+        "id": 8,
+        "question": "Bütün kainat Cenab-ı Hakkın taht-ı emir ve idaresinde; heybet ve azameti altında nihayet itaatle ….. tezellüldedir hangi sıfatı yazılmalıdır.",
+        "A": "Kemaline karşı",
+        "B": "Cemaline karşı",
+        "C": "Celaline karşı",
+        "D": "Rahimiyetine karşı",
+        "true_answer": ""
+      },
+      {
+        "id": 9,
+        "question": "Ey insan! O müstağni-i alelıtlak'ın ve Sultan-ı Sermedi'nin huzuruna çıkaran, Ona dost yapan ve ona muhatap eden, sevgili bir abd vaziyetini veren Cenab-ı Hakkın hangi sıfatıdır?",
+        "A": "Kudreti",
+        "B": "Hakimiyeti",
+        "C": "Halıkıyeti",
+        "D": "Rahmeti",
+        "true_answer": ""
+      },
+      {
+        "id": 10,
+        "question": "'Nasıl sen güneşe yetişemiyorsun, çok uzaksın, hiçbir cihetle yanaşamıyorsun fakat güneşin ziyası, güneşin aksini, cilvesini senin âyinen vasıtası ile senin eline verir. Öyle de O Zat-ı Akdes'e ve O Şemsi Ezel ve Ebede biz çendan nihayetsiz uzağız, yanaşamayız. Burada nasıl ki, güneşin ışığını ve ısısını ayine vasıtası ile kendimize yakın ediyoruz. Öylede Allah'a kendimize yakın etmenin yolu nasıldır?",
+        "A": "Ziya-i rahmeti",
+        "B": "Ziya-ı kudreti",
+        "C": "Ziya-ı aynası",
+        "D": "Ziya-ı ışığı",
+        "true_answer": ""
+      },
+      {
+        "id": 11,
+        "question": "Rahmetin en parlak bir misali ve mümessili ve o rahmetin en beliğ bir lisanı ve dellälı olan ve 'Rahmeten Lilâlemin' ünvanıyla Kur'an'da tesmiye edilen hakikat aşağıdaki şıklardan hangisinde tam olarak ifade edilmiştir?",
+        "A": "Hz. Ibrahim Aleyhissalamın sünnetidir.",
+        "B": "Hz. Musa Aleyhissalamın sünnetidir.",
+        "C": "Resul-i Ekrem Aleyhissalatü Vesselamın sünnetidir ve tebaiyetidir.",
+        "D": "Hz. Isa Aleyhissalamın sünnetidir.",
+        "true_answer": ""
+      },
+      {
+        "id": 12,
+        "question": "Insandaki her aza ve hasselerin kıymeti, Cenab-ı Hakka satsa birden bine çıkar. Insanda bir hasse var ki, Cenab-ı Hak hesabına çalışırsa şu kainatta olan nihayetsiz rahmet hazinelerini hikmet definelerine açar. Nefis hesabına çalışırsa meş'um ve müziç ve muacciz bir alet olur. Bahsi geçen bu hasse nedir?",
+        "A": "İnsanın Ruhu",
+        "B": "İnsanın Aklı",
+        "C": "İnsanın Kalbi",
+        "D": "İnsanın Nefsi",
+        "true_answer": ""
+      },
+      {
+        "id": 13,
+        "question": "Emaneti Sahib-i Hakikisine satarsak beş derece kâr içinde kâr vardır. Aşağıdakilerden hangisi bahsi geçen kârlardan değildir.",
+        "A": "Fani mal beka bulur.",
+        "B": "Cennet gibi bir fiyat veriliyor.",
+        "C": "Her aza ve hasselerin kıymeti birden bine çıkar.",
+        "D": "Fani mal beka bulmaz.",
+        "true_answer": ""
+      },
+      {
+        "id": 14,
+        "question": "Insanda bir hasse var ki, Sahib-i Hakikisine satılırsa kütüphane-i İlâhiyenin mütefennin bir nazırı olur. Nefis hesabına kullanırsa; Adi bir kavvat derekesine iner. Aşağıdakilerden hangisi insandaki bu hasseyi ifade eder.",
+        "A": "Akıl",
+        "B": "Göz",
+        "C": "Hayal",
+        "D": "Hiç biri",
+        "true_answer": ""
+      }
+    ]
+  }
+  

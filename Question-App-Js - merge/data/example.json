@@ -1,0 +1,51 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Aşağıdakilerden hangisi İslam'ın şartlarındandır?",
+        "A": "Abdest almak",
+        "B": "Oruç tutmak",
+        "C": "Salavat getirmek",
+        "D": "Allah'ın varlığını ve birliğini iman etmek",
+        "true_answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Şeair; alametler, işaretler demektir. Dinimizin de Şeairleri vardır. Aşağıdakilerden hangisi şeair-i İslamiyeden değildir.",
+        "A": "Oruç tutmak",
+        "B": "Camiler ve minareler",
+        "C": "Namaz kılmak",
+        "D": "Yemekte dua etmek",
+        "true_answer": "D"
+      },
+      {
+        "id": 3,
+        "question": "Aşağıdakilerden hangisi ramazan ayında tutulan oruç'un hikmetlerinden değildir?",
+        "A": "Cenab-ı Hakkın rububiyetine bakar.",
+        "B": "Insanın hayat-ı içtimaiyesine bakar.",
+        "C": "Insanlardaki nefsin azgınlaşmasına bakar.",
+        "D": "Niam-ı İlâhiyenin şükrüne bakar.",
+        "true_answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "Cenab-ı Hak zemin yüzünü bir sofra-i nimet suretinde halk ettiğini ve yarattığı bütün varlıklara ummadıkları bir şekilde rızıklandırdığını, şu ayetle ifade eder; 'Allah onu ummadığı bir şekilde rızıklandırır. (Talak Suresi 3. ayet)' bu durumda Cenabı hak hangi isim ve sıfatlarını bizlere göstermek ister?",
+        "A": "Kemål-i Rububiyetini",
+        "B": "Mağfiretini",
+        "C": "Rahmaniyetini",
+        "D": "Rahimiyetini",
+        "true_answer": "C"
+      },
+      {
+        "id": 5,
+        "question": "Cenab-ı Hak, hadsiz enva-i nimetini nev-i beşere zemin yüzünde neşretmiş. Ona mukabil, o nimetlerin fiyatı olarak, şükür istiyor. Aşağıdakilerden hangisi Cenab-ı Hakka manevi olarak teşekkür ettiğimiz anlamına gelmez?",
+        "A": "O nimetlerin fiyatını nakit olarak satıcıya ödemek.",
+        "B": "O nimetleri doğrudan doğruya Cenab-ı Haktan bilmek.",
+        "C": "O nimetlerin kıymetini takdir etmek.",
+        "D": "O nimetleri kendi ihtiyacını hissetmekle istemek.",
+        "true_answer": "A"
+      }
+    ]
+  }
+
+  

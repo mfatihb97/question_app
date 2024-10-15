@@ -1,0 +1,10 @@
+.question-container ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
