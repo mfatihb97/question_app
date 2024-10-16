@@ -18,7 +18,6 @@ class UserService{
     static async register(userData){
         try{
             const response = await axios.post(`${UserService.BASE_URL}/auth/register`,userData)
-           console.log(response.data.message)
             return response.data;
        
         }catch(err){

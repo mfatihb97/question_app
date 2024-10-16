@@ -38,34 +38,38 @@ public class UsersManagementService {
             if (usersRepo.findByEmail(registrationRequest.getEmail()).isPresent()) {
                 response.setMessage("Bu email adresi kullanımda!");
                 response.setStatusCode(400);
-                throw new Exception("Bu email adresi kullanımda!");
-            }else{
-                OurUsers ourUser = new OurUsers();
-                ourUser.setEmail(registrationRequest.getEmail());
-                ourUser.setCity(registrationRequest.getCity());
-                ourUser.setRole(registrationRequest.getRole());
-                ourUser.setName(registrationRequest.getName());
-                ourUser.setPassword(passwordEncoder.encode(registrationRequest.getPassword()));
-
-                OurUsers savedUser = usersRepo.save(ourUser);
-
-                if (savedUser.getId() > 0) {
-                    response.setOurUsers(savedUser);
-                    response.setMessage("User saved successfully.");
-                    response.setStatusCode(200);
-                }
+                return response;
             }
-            return response;
 
+
+            OurUsers ourUser = new OurUsers();
+            ourUser.setEmail(registrationRequest.getEmail());
+            ourUser.setCity(registrationRequest.getCity());
+            ourUser.setRole(registrationRequest.getRole());
+            ourUser.setName(registrationRequest.getName());
+            ourUser.setPassword(passwordEncoder.encode(registrationRequest.getPassword()));
+
+
+            OurUsers savedUser = usersRepo.save(ourUser);
+
+            if (savedUser.getId() > 0) {
+                response.setOurUsers(savedUser);
+                response.setMessage("Kullanıcı başarıyla kaydedildi.");
+                response.setStatusCode(200);
+            } else {
+                response.setMessage("Kullanıcı kaydedilemedi.");
+                response.setStatusCode(500);
+            }
 
         } catch (Exception e) {
-            response.setMessage("An error occurred while saving the user.");
+            response.setMessage("Kullanıcı kaydedilirken bir hata oluştu.");
             response.setStatusCode(500);
             response.setError(e.getMessage());
         }
 
         return response;
     }
+
 
 
     public RequestResponse login(RequestResponse loginRequest){

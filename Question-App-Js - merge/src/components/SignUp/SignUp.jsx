@@ -23,23 +23,33 @@ export const SignUp = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+    
         try {
-            await UserService.register(formData);
-            setFormData({
-                name: '',
-                email: '',
-                password: '',
-                city: ''
-            });
-            alert('User registered successfully');
-            navigate('/homepage');
-
+            const response = await UserService.register(formData);
+    
+            // Backend'den dönen yanıtın statusCode'una göre kontrol yapıyoruz
+            if (response.statusCode === 200) {
+                setFormData({
+                    name: '',
+                    email: '',
+                    password: '',
+                    city: ''
+                });
+                console.log(response);
+                alert('User registered successfully');
+                navigate('/login');
+            } else {
+                // Eğer statusCode 200 değilse, hata mesajını göster
+                console.log('Error registering user: ', response.message);
+                alert(response.message || 'User registration failed');
+            }
+            
         } catch (error) {
             console.log('Error registering user: ', error);
-            alert(error.message ||'An error occured while registering user')
+            alert('User registration failed');
         }
-    }
+    };
+    
     return (
         <Form onSubmit={handleSubmit} className='container-fluid d-flex flex-column justify-content-center align-items-center vh-100 bg-body-secondary'>
             <div className='border border-primary rounded p-5'>
